@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+header {    
+    padding:0.1px;
+    margin: 0;
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background: linear-gradient(to right,#8008ad, #a20adc,#da7dfe);
+}
+.buttons {
+    display: flex;
+}
+.title {
+    font-family: Arial;
+    font-size: 37px;
+    font-weight: 900;
+    text-align: left; 
+    padding-left: 15px;
+    color: white;
+}
+.buttontext {
+    margin: 0;
+    padding:5px;
+    font-family: Arial;
+    font-size: 27px;
+    font-weight: 900;
+    text-align: center; 
+    color: white;
+}
+
+.headerbutton {
+    width: 160px;
+    height: 50px;
+    background-color: #4f036a;
+    border-radius: 45px;
+    text-align: center;
+    margin: auto 10px;
+    transition: background-color 0.5s;
+}
+.headerbutton:hover{
+    background-color: #7406a0;
+    cursor: pointer;
+}
+.role {
+    font-family: Arial;
+    font-size: 27px;
+    font-weight: 400;   
+    color: white;
+    padding-right: 15px;
+}
+.role::first-letter {
+    color: rgb(6, 237, 6);
+}
