@@ -56,3 +56,26 @@ header {
 .role::first-letter {
     color: rgb(6, 237, 6);
 }
+.content {
+    display: flex;
+}
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 60px;
+    background-color: white;
+    border: 1px solid #343235;
+    display: flex;
+    padding-top: 31%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.sidebar button {
+    background-color: white;
+    width: 45px;
+    height: 40px;
+}
+.sidebar button:hover {
+    cursor: pointer;
+}
