@@ -38,7 +38,7 @@ header {
     padding:1px;
     font-family: Arial;
     font-size: 27px;
-    font-weight: 900;
+    font-weight: 800;
     text-align: center; 
     color: white;
 }
@@ -78,4 +78,60 @@ header {
 }
 .sidebar button:hover {
     cursor: pointer;
+}
+.main {
+    display: flex;
+    width: 1430px;
+    height: auto;
+    margin-left: 85px;
+    margin-top: 25px;
+    background-color: #d97dfe3a;
+    border-radius: 30px;
+}
+.features {
+    display: flex;
+    gap: 15px;
+}
+.feature {
+    width: 230px;
+    height: 80px;
+    background-color: #a20adc;
+    border-radius: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px 10px;
+    
+}
+.featuretext {
+    padding-bottom: 10px;
+    font-family: Arial;
+    font-size: 27px;
+    font-weight: 400;
+    color: white;
+}
+.filters {
+    width: 360px;
+    height: 800px;
+    background-color: #a20adc;
+    border-radius: 30px;
+    margin: 0px 0px 0px 25px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.filterstext
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 10px;
+    padding-bottom: 20px;
+}
+.filters-name {
+    padding-left: 5px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
 }
