@@ -117,20 +117,8 @@ header {
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
-.features {
-    display: flex;
-    gap: 15px;
-}
-.feature {
-    width: 230px;
-    height: 80px;
-    background-color: #a20adc;
-    border-radius: 30px;
-    text-align: center;
-    vertical-align: middle;
-    margin: 10px 10px;
-    
-}
+
+
 .featuretext {
     padding-bottom: 10px;
     font-family: Arial;
