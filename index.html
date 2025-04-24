@@ -5,61 +5,96 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Портал ВШЦТ</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
         
     </head>
-    <header>       
-            <div class="title">Портал ВШЦТ</div> 
-            <div class="menu">           
-                <button><p class="menubuttontext">Идеи</p></button>                               
-                <button><p class="menubuttontext">Проекты</p></button>   
-            </div>
-            <div class="role">● Студент</div>
-    </header>
+    
     <body>
-        <div class="content">
-            <div class="sidebar">
-                <button><img src="https://cdn-icons-png.flaticon.com/128/7270/7270025.png" alt="Помощь" height="30" width="30"></button>
-                <button><img src="https://cdn-icons-png.flaticon.com/128/1946/1946429.png" alt="Профиль" height="30" width="30"></button>
-                <button><img src="https://cdn-icons-png.flaticon.com/128/126/126472.png" alt="Настройки" height="30" width="30"></button>
-            </div>
-            <div class="main">
-                <div class="table">
-                    <div class="featuretext">Название</div>
-                    <div class="featuretext">Статус</div>
-                    <div class="featuretext">Кол-во человек</div>
-                    <div class="featuretext">Дата создания</div>
+        <header>   
+            <h1 class="text-left text-white">Портал ВШЦТ</h1> 
+                <div class="menu">           
+                    <button class="h4 text-center text-white">Идеи</p></button>                               
+                    <button class="h4 text-center text-white">Проекты</p></button>   
                 </div>
-                <div class="rows">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-                <div class="filters">
-                    <div class="filterstext">Фильтры</div>
-                    <input type="checkbox" id="filter1Checkbox">
-                    <label class="filters-name" for="filter1Checkbox">Фильтр №1</label><br>
-                    <input type="checkbox" id="filter2Checkbox">
-                    <label class="filters-name" for="filter2Checkbox">Фильтр №2</label><br> 
-                    <input type="checkbox" id="filter3Checkbox">
-                    <label class="filters-name" for="filter3Checkbox">Фильтр №3</label><br> 
-                    <input type="checkbox" id="filter4Checkbox">
-                    <label class="filters-name" for="filter4Checkbox">Фильтр №4</label><br> 
-                    <input type="checkbox" id="filter5Checkbox">
-                    <label class="filters-name" for="filter5Checkbox">Фильтр №5</label><br> 
-                    <input type="checkbox" id="filter6Checkbox">
-                    <label class="filters-name" for="filter6Checkbox">Фильтр №6</label><br> 
-                    <input type="checkbox" id="filter7Checkbox">
-                    <label class="filters-name" for="filter7Checkbox">Фильтр №7</label><br>        
-                </div>
-                
-                <div class="box"></div>
-            </div>
-        </div>
+            <div class="role">● Студент</div>
+        </header>  
+
+        <aside class="sidebar">
+                <button><img src="https://cdn-icons-png.flaticon.com/128/7270/7270025.png"  height="30" width="30"></button>
+                <button><img src="https://cdn-icons-png.flaticon.com/128/1946/1946429.png"  height="30" width="30"></button>
+                <button><img src="https://cdn-icons-png.flaticon.com/128/126/126472.png"  height="30" width="30"></button>
+        </aside> 
+
+        <main>
+            <article>
+                <table class="table table-hover">
+                <thead class="tableHeader">
+                  <tr>
+                    <th scope="col">Название</th>
+                    <th scope="col">Статус</th>
+                    <th scope="col">Кол-во человек</th>
+                    <th scope="col">Дата создания</th>
+                  </tr>
+                </thead>
+                <tbody class="tableBody">
+                  <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+
+            <article class="filters">    
+                <div class="filterstext">Фильтры</div>                        
+                    <ul>
+                        <li>
+                            <label class="filters-name">
+                                <input type="checkbox"/> Фильтр 2
+                            </label>
+                        </li>
+                        <li>
+                            <label class="filters-name">
+                                <input type="checkbox"/> Фильтр 3
+                            </label>
+                        </li>
+                        <li>
+                            <label class="filters-name">
+                                <input type="checkbox"/> Фильтр 4
+                            </label>
+                        </li>  
+                        <li>
+                            <label class="filters-name">
+                                <input type="checkbox"/> Фильтр 5
+                            </label>
+                        </li>  
+                        <li>
+                            <label class="filters-name">
+                                <input type="checkbox"/> Фильтр 6
+                            </label>
+                        </li>  
+                        <li>
+                            <label class="filters-name">    
+                                <input type="checkbox"/> Фильтр 7
+                            </label>
+                        </li> 
+                    </ul>                                       
+            </article> 
+        </main>
         <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
