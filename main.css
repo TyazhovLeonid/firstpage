@@ -93,7 +93,7 @@ main {
     padding-top: 30px;
     padding-left: 25px;
 }
-.filterstext
+.filtersText
 {
     text-align: center;
     font-family: Arial;
@@ -103,7 +103,7 @@ main {
     letter-spacing: 10px;
     padding-bottom: 20px;
 }
-.filters-name {
+.filterName {
     padding-left: 5px;
     font-family: Arial;
     font-size: 20px;
