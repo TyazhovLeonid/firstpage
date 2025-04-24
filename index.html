@@ -11,7 +11,7 @@
     
     <body>
         <header>   
-            <h1 class="text-left text-white">Портал ВШЦТ</h1> 
+            <h1 class="text-left text-white">Портал ВШЦТ</h1> <!-- Вот тут ты правильно применяешь классы bootstrap -->
                 <div class="menu">           
                     <button class="h4 text-center text-white">Идеи</p></button>                               
                     <button class="h4 text-center text-white">Проекты</p></button>   
@@ -27,8 +27,8 @@
 
         <main>
             <article>
-                <table class="table table-hover table-bordered">
-                    <thead class="tableHeader">
+                <table class="table table-hover table-bordered"> <!-- Закругление можно сделать с помощью класса rounded, можешь почитать об этом в Borders разделе -->
+                    <thead class="tableHeader"> <!-- Ты до сих пор используешь свой css, а должен применять bootstrap классы как ты сделал выше -->
                     <tr>
                         <th scope="col">Название</th>
                         <th scope="col">Статус</th>
