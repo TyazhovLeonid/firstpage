@@ -10,7 +10,7 @@
     </head>
     
     <body>
-        <header class="d-flex align-items-center" style="background: linear-gradient(to right,#8008ad, #a20adc,#da7dfe); height: 96px;">
+        <header class="d-flex align-items-center" style="background: linear-gradient(to right,#8008ad, #a20adc,#da7dfe); height: 96px; position: fixed; right: 0; left: 0; top: 0;">
             <nav class="nav justify-content-between" style="width: 100%; margin: 0px 10px;">
                 <h1 class="text-left text-white">Портал ВШЦТ</h1>
                 <container>
@@ -21,8 +21,6 @@
             </nav>  
         </header>  
 
-       
-
         <main class="d-flex"> 
             <aside class="border border-dark bg-white d-flex flex-column justify-content-end align-items-center" style="height: 87%; width: 60px; gap: 10px; position:fixed; left: 0;bottom: 0;">
                 <button><img src="https://cdn-icons-png.flaticon.com/128/7270/7270025.png"  height="30" width="30"></button>
@@ -31,7 +29,7 @@
             </aside> 
             
             <article>
-                <table class="table table-hover table-borderless" style="background: #e6a0ff; width: 1100px; border-radius: 15px; margin: 20px 20px 10px 80px; overflow:hidden">
+                <table class="table table-hover table-borderless" style="background: #e6a0ff; width: 1100px; border-radius: 15px; margin: 110px 20px 10px 80px; overflow:hidden">
                     <thead class="font-weight-bold text-white" style="background-color: #a56ad7;">
                         <tr>
                             <th scope="col">Название</th>
@@ -63,36 +61,41 @@
               </table>
             </article>
 
-            <article class="filters">    
-                <div class="filtersText">Фильтры</div>                        
+            <article style="background-color: #a56ad7; border-radius: 15px; margin: 110px 10px 0px 25px; width: 300px; height: 700px;">    
+                <p class="text-white text-center" style="letter-spacing: 5px; font-size: 45px; font-weight: 400;">Фильтры</p>                        
                     <ul>
                         <li>
-                            <label class="filterName">
+                            <label class="text-white" style="letter-spacing: 2px;">
+                                <input type="checkbox"/> Фильтр 1
+                            </label>
+                        </li>
+                        <li>
+                            <label class="text-white" style="letter-spacing: 2px;">
                                 <input type="checkbox"/> Фильтр 2
                             </label>
                         </li>
                         <li>
-                            <label class="filterName">
+                            <label class="text-white" style="letter-spacing: 2px;">
                                 <input type="checkbox"/> Фильтр 3
                             </label>
                         </li>
                         <li>
-                            <label class="filterName">
+                            <label class="text-white" style="letter-spacing: 2px;">
                                 <input type="checkbox"/> Фильтр 4
                             </label>
                         </li>  
                         <li>
-                            <label class="filterName">
+                            <label class="text-white" style="letter-spacing: 2px;">
                                 <input type="checkbox"/> Фильтр 5
                             </label>
                         </li>  
                         <li>
-                            <label class="filterName">
+                            <label class="text-white" style="letter-spacing: 2px;">
                                 <input type="checkbox"/> Фильтр 6
                             </label>
                         </li>  
                         <li>
-                            <label class="filterName">    
+                            <label class="text-white" style="letter-spacing: 2px;">    
                                 <input type="checkbox"/> Фильтр 7
                             </label>
                         </li> 
