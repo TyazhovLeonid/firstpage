@@ -1,13 +1,3 @@
-
-.tableHeader {
-    color: white;
-    background-color: #a56ad7;
-}
-.tableBody {
-    color: white;
-    background-color: #e6affc;
-}
-
 .sidebar {
     position: fixed;
     left:0;
